@@ -52,7 +52,7 @@ const getWinner = (cChoice, pChoice = DEFAULT_USER_CHOICE) =>
 //   return RESULT_COMPUTER_WINS
 // }
 
-startGameBtn.addEventListener("click", function () {
+startGameBtn.addEventListener("click", () => {
   if (gameIsRunning) {
     return
   }
